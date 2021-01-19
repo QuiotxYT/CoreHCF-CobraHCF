@@ -1,0 +1,14 @@
+name: Fly
+main: Fly\Main
+api: [1.0.0, 2.0.0, 3.0.0]
+version: 1.0
+author: QuitoxYT
+
+commands:
+ fly:
+  description: Fly Command
+  permission: fly.command
+permissions:
+ fly.command:
+  default: op
+  description: Fly perms
